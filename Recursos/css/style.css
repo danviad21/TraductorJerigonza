@@ -1,0 +1,120 @@
+/*
+    Created on : 15/05/2019, 03:53:49 PM
+    Author     : David
+*/
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 35px 0 0 0;
+    background-image: url(../../Recursos/img/fondo2.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body > header{
+  width: 75%;
+  height: 25%;
+}
+.encabezado{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 100%;
+  border: solid 2px activeborder;
+  box-shadow: 1px 1px 1px 1px activeborder;
+}
+
+.encabezado p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  font-size: 4em;
+  font-style: normal;
+  color:white;
+  background-color: #2e518b;
+  --background: -moz-radial-gradient(center, ellipse cover, rgb(13,157,253) 20%, rgb(13,157,253) 74%, rgb(13,157,253) 91%, rgb(81,170,194) 100%);
+  --background: -webkit-radial-gradient(center, ellipse cover, rgb(13,157,253) 20%, rgb(13,157,253) 74%, rgb(13,157,253) 91%, rgb(81,170,194) 100%);
+  --background: -o-radial-gradient(center, ellipse cover, rgb(13,157,253) 20%, rgb(13,157,253) 74%, rgb(13,157,253) 91%, rgb(81,170,194) 100%);
+  --background: -ms-radial-gradient(center, ellipse cover, rgb(13,157,253) 20%, rgb(13,157,253) 74%, rgb(13,157,253) 91%, rgb(81,170,194) 100%);
+}
+
+.encabezado a{
+  width: 45%;
+  height: 100%;
+  border-right:solid 2px activeborder;
+  box-shadow: 1px 1px 1px 1px activeborder;
+}
+
+.encabezado >a figure{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height:100;
+  border: solid 2px activeborder;
+  box-shadow: 1px 1px 1px 1px activeborder;
+}
+
+.encabezado figure > img{
+  width: 75%;
+  height: 100%;
+}
+
+body > main{
+  margin: 1.5px 0 0 0;
+  border: solid 2px activeborder;
+  box-shadow: 1px 1px 1px 1px activeborder;
+  background-color: white;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cajas{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.txtA{
+  font-size: 2em;
+  width: 45%;
+  height: 95%;
+}
+
+.btn{
+  width: 10%;
+  height: 10%;
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  margin: 3px 3px 3px 28px;
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: #2e518b; /*color botón*/
+  color: #ffffff; /*color texto*/
+  font-size: 1.5em;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-align: center;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+}

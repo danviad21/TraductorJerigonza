@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Recursos/css/style.css">
+  <title>Traductor Jerigonza</title>
+</head>
+<body>
+  <header>
+    <nav class="encabezado">
+      <p>Traduccion Jerigonza</p>
+      <a href="https://www.umg.edu.gt/" target="_blank">
+        <figure>
+            <img src="Recursos/img/logoumg.png" alt="Conoceréis la verdad y la verdad os hará libres."/>
+        </figure>
+      </a>
+    </nav>
+  </header>
+  <main>
+      <div class="cajas">
+        <textarea class="txtA" id="txtOrigen" rows="8" cols="38"
+         placeholder="Escriba su texto a Traducir" onkeydown="getTraduccion1(event)"
+         oninput="getTraduccion()" wrap="hard"></textarea>
+        <textarea class="txtA" id="txtResultado" rows="8" cols="38" readonly></textarea>
+      </div>
+      <a class="btn" href="#" onclick="reset()">Reset</a>
+  </main>
+  <script type="text/javascript" src="Recursos/js/functions.js"></script>
+</body>
+</html>
